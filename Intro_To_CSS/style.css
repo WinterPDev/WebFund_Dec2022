@@ -1,0 +1,39 @@
+/* 
+CSS Selectors
+
+Global/Element Selector - Targeting all Elements by their name
+Classes - Targeting elements that use this class in their attribute.
+ID - Gets highest priority when selecting an element
+*/
+
+/* 
+Priority Order for CSS:
+
+1. ID
+2. Class
+3. Global
+
+*/
+
+/* 
+When defining a class, we start with a .
+*/
+.text-teal {
+    color: teal;
+}
+
+.text-purple {
+    color: purple;
+}
+
+#text-red {
+    color: red;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    background-color: blanchedalmond;
+}
