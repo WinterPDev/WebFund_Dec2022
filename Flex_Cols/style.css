@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-dark {
+    background-color: rgb(72, 72, 72);
+}
+
+.navbar-bg {
+    background-color: black;
+    height: 100px;
+}
+
+.navbar {
+    height: 100px;
+    width: 800px;
+    background-color: goldenrod;
+    margin: 0 auto;
+}
+
+.main {
+    margin: 0 auto;
+    width: 800px;
+    height: 1300px;
+    background-color: aqua;
+    gap: 50px;
+    display: flex;
+}
+
+.col-1 {
+    flex: 2;
+    background-color: darkred;
+}
+
+.col-2 {
+    flex: 1;
+    background-color: hotpink;
+}
