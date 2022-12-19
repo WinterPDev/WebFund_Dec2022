@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div>
+        <img id="pokeImage"
+            src="https://archives.bulbagarden.net/media/upload/thumb/1/17/025Pikachu-Original.png/600px-025Pikachu-Original.png"
+            alt="Pikachu">
+
+        <h1 id="pokeName">
+            Pikachu
+        </h1>
+
+        <button onclick="evolvePokemon('#pokeName','#pokeImage', 'Pikachu')">Evolve Pokemon</button>
+    </div>
+
+    <div>
+
+        <img id="pokeImage-2"
+            src="https://archives.bulbagarden.net/media/upload/thumb/4/4a/005Charmeleon.png/600px-005Charmeleon.png"
+            alt="Charmeleon">
+
+        <h1 id="pokeName-2">
+            Charmeleon
+        </h1>
+
+        <button onclick="evolvePokemon('#pokeName-2','#pokeImage-2', 'Charmeleon')">Evolve Pokemon</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

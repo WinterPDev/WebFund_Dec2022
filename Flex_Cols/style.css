@@ -14,14 +14,14 @@
 
 .navbar {
     height: 100px;
-    width: 800px;
+    width: 70%;
     background-color: goldenrod;
     margin: 0 auto;
 }
 
 .main {
     margin: 0 auto;
-    width: 800px;
+    width: 70%;
     height: 1300px;
     background-color: aqua;
     gap: 50px;
@@ -31,6 +31,19 @@
 .col-1 {
     flex: 2;
     background-color: darkred;
+}
+
+.box {
+    height: 300px;
+    margin-top: 40px;
+    background-color: aliceblue;
+    border: 4px black solid;
+}
+
+
+.header {
+    background-color: slateblue;
+    padding: 10px;
 }
 
 .col-2 {

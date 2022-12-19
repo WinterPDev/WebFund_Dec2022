@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+
+</head>
+
+<body>
+
+    <button onclick="alert('Hello from the button!')">Click Me!</button>
+    <button onclick="printConsole()">Click Me to Print to Console!</button>
+
+    <button onclick="getElementInfo(this)">Show element in Console</button>
+
+
+    <button class="likebutton" onclick="switchOff(this)" style="color: red;">
+        On
+    </button>
+
+    <ul onclick="getList(this)">
+        <li>List Item 1 </li>
+        <li>List Item 2 </li>
+    </ul>
+
+
+    <img onclick="hideImg(this)" onmouseover="changeHover(this)" onmouseout="changeOut(this)"
+        src="https://placekitten.com/200/300" alt="happy cat">
+
+
+    <h1 onmouseover="changeTextHover(this)">Hover Here!</h1>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
